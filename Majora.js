@@ -31,7 +31,7 @@ fs.readdir("./commands/", (err, files) =>{
     });
 });
 
-bot.on('ready', async ()=>{
+bot.on('ready', () =>{
     console.log(`Bot is ready! ${bot.user.username}`);
     console.log(bot.commands);
     bot.guilds.forEach(c=>{
