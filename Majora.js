@@ -41,7 +41,7 @@ bot.on('ready', () =>{
     });
 });
 
-bot.on('message', async message =>{
+bot.on('message', message =>{
     if(message.author.bot) return;
     if(message.channel.type === 'dm') return;
 
@@ -52,10 +52,6 @@ bot.on('message', async message =>{
 
     let cmd = bot.commands.get(command);
     if(cmd) cmd.run(bot, message, args);
-    else await additionalCommands(bot, command, message, args);
 });
-
-async function additionalCommands(bot, command, message, args){
-}
 
 bot.login(settings.token);
