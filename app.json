@@ -1,4 +1,5 @@
 {
     "name": "Majora Bot",
-    "repository": "https://github.com/nomnomab/MajoraBot"
+    "repository": "https://github.com/nomnomab/MajoraBot",
+    "main": "Majora.js"
 }
