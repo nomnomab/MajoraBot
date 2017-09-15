@@ -1,0 +1,16 @@
+{
+  "name": "majorabot",
+  "version": "1.0.0",
+  "description": "A bot to do many things",
+  "main": "Majora.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nomnom",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "opusscript": "0.0.3",
+    "ytdl-core": "^0.17.1"
+  }
+}

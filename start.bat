@@ -1,0 +1,2 @@
+nodemon Majora.js
+pause
