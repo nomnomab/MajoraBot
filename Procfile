@@ -1,1 +1,1 @@
-web: node Majora.js
+web: nodemon Majora.js
