@@ -1,4 +1,4 @@
-module.exports.run = (bot, message, args) =>{
+module.exports.run = async (bot, message, args) =>{
     message.channel.send(`Reloading ${args[0]}.js`);
 
     try{

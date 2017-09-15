@@ -1,1 +1,1 @@
-web: node Majora.js
+DiscordJS: node Majora.js
