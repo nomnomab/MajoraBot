@@ -1,4 +1,4 @@
-module.exports.run = async (bot, message, [mention]) =>{
+module.exports.run = (bot, message, [mention]) =>{
     if(!mention.startsWith("<@")){ message.channel.send("You must mention a user.");
         return;
     }
